@@ -1,0 +1,22 @@
+#container{
+    background-color: skyblue
+  }
+  #title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: #eee 3px solid;
+    
+  }
+  
+  #description{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  #container{
+    display: grid;
+    
+  }

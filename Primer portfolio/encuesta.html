@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="encuesta.css">
+  <header>
+    <h1 id="title">TITULO </h1>
+<p id="description"> Esto es una encuesta para Freecodecamp <p>
+  </header>
+  <body id="container">
+<form id="survey-form">
+
+<label id="name-label">
+  <input type="text" placeholder="Nombre" id="name" required> 
+  </label>
+  <label>
+  <input type="text" placeholder="Apellido" id="apellido" required>
+  </label>
+
+  <label for="email-label" id="email-label">
+  <input id="email" type="email" placeholder="Email" id="email" required> <button>Confirmar correo</button>
+  </label>
+
+
+
+<p> Selecciona tu fecha de nacimento: </p>
+
+<input type="date" placeholder="Fecha de nacimiento"  id="date" required>
+
+  <label id="number-label">
+
+<input type="number"  placeholder="Numero de contacto" 
+ min="0" max="1000000000000" id="number" required> <button>Confirmar numero</button>
+  </label>
+
+<div id="checkbox-y-radio">
+<p>Seleccione su sexo</p>
+<label for="femenino">
+<input type="radio" name="femenino-masculino" value="value">Femenino
+</label>
+<label for="masculino">
+<input type ="radio" value="value" name="femenino-masculino"> Masculino
+</label>
+  </div>
+
+  <div>
+    <label id="checkbox">
+      <p> Seleccione la o las opciones que más le parezcan:
+      <br>
+      
+      <input type="checkbox" value="value1" name="opcion 1"> Opción 1
+      <br>
+        <input type="checkbox" value="value2" name="opcion 2"> Opción 2
+        <br>
+          <input type="checkbox" value="value3" name="opcion 3"> Opción 3
+
+
+    </label>
+  </div>
+  <div>
+    <h3>TE GUSTÓ LA PÁGINA?</h3>
+    <select id="dropdown" name="select">
+  <option value="value1">Si </option>
+  <option value="value2">No</option>
+  <option value="value3">Me da igual</option>
+</select>
+  </div>
+  <h3>Deja un comentario</h3>
+  <textarea></textarea>
+  <div id="Enviar">
+    <button id="submit">Enviar</button>
+  </div>
+
+  
+    
+
+  </form>
+  
+
+
+  
+  </body>
+
+  <footer></footer>
+  </html>
+
+</html>
